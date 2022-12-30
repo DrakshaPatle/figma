@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap");
 
-/* Bg color: #E6FAEE */
-/* btn colors: #01BD4E */
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
 
 * {
   padding: 0;
@@ -17,10 +16,11 @@ body {
   background-color: #e6faee;
   font-family: "Playfair Display", serif;
   font-size: 18px;
-  animation: fadeInAnimation ease-in 0.5s;
+  animation: fade ease-in 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 
 @keyframes fadeInAnimation {
   0% {
@@ -31,38 +31,38 @@ body {
   }
 }
 
-.btn-success {
-    margin-right: 70px;
-  background-color: #01bd4e;
-  border: 1px solid #01bd4e;
-  padding: 8px 18px;
-}
 
 
+#navbar {
+    transition: 0.3s ease-in-out;
+  }
+  .navbar-brand {
+    min-width: 3%;
+    margin-left: 200px;
+    width: 30%;
+  }
 .btn-outline-success {
     
   background: #ffffff;
-  border: 1px solid #01bd4e;
+  border: 1px solid   #01bd4e;
   border-radius: 5px;
-  color: #01bd4e;
+  color:    #01bd4e;
   font-weight: 400;
   padding: 8px 12px;
 }
 
-.para-green {
-  color: #01bd4e;
+.expert-green {
+  color:    #01bd4e;
 }
 
 /* Navbar */
-#navbar {
-  transition: 0.3s ease-in-out;
+.btn-success {
+    margin-right: 70px;
+  background-color:    #01bd4e;
+  border: 1px solid    #01bd4e;
+  padding: 8px 18px;
 }
 
-.navbar-brand {
-  min-width: 3%;
-  margin-left: 200px;
-  width: 30%;
-}
 
 .navbar-brand img {
   width: 120px;
@@ -87,7 +87,7 @@ body {
   display: flex;
 }
 
-/* Hero */
+/* hero */
 #hero {
   background-color: #fff;
 }
@@ -96,7 +96,7 @@ body {
   font-weight: 500;
   font-size: 60px;
   line-height: 80px;
-  color: #01bd4e;
+  color:    #01bd4e;
 }
 
 .hero-img {
@@ -120,7 +120,7 @@ body {
   padding: 0px 100px;
 }
 
-/* Projects */
+/* projects */
 #projects {
   background-color: #fff;
   height: 100%;
@@ -130,6 +130,20 @@ body {
   padding: 100px 0px;
 }
 
+/* /* .cards-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 40px;
+  row-gap: 40px;
+  margin: 0px 100px; *
+
+
+.card{
+   background-color: #e6faee; 
+  border-radius: 10px;
+  padding: 20px;
+} */
+
 .cards-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -138,19 +152,37 @@ body {
   margin: 0px 100px;
 }
 
-.cards {
+.tcards {
   background-color: #e6faee;
   border-radius: 10px;
   padding: 20px;
 }
 
-.card-icon {
+
+
+
+
+
+
+
+.cicon {
   color: #fff;
+  
 }
 
-.card-icon-bg {
-  color: #01bd4e;
+.iconbg{
+  color:    #01bd4e;
+font-size: 70px;
+  
+    /* border-radius: 100%;
+    width: 4px;
+    height: 10px; */
+
+
 }
+
+/*  experts*/
+
 
 /*  Experts*/
 #experts {
@@ -160,89 +192,214 @@ body {
 }
 
 .card-img {
-  min-height: 200px;
+  overflow: hidden;
+  height: 200px;
   border-radius: 6px 0px 0px 0px !important;
   object-fit: cover;
+  background-position: center center;
 }
 
-/*  How does it work?*/
+
+/* .expertsboxes{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  gap: 10px;
+  position: relative;
+  left: 610px;
+  top: -100px;
+  
+}
+
+.expertsbox{
+  border: 1px solid rgba(79, 79, 79, 0.3); 
+  position: relative;
+  top: 70px;
+  width: 300;
+height: 170px;
+display: inline-flex;
+}
+
+.expertsbox .expertboximg{
+       width: 210px;
+       height: 170px;
+
+}
+
+.expertsbox_heading{
+  font-weight: 500;
+  font-size: 19px;
+  width: 140px;
+  position: relative;
+  top: 20px;
+  left: 25px;
+
+}
+.expertbox_para{
+  font-weight: 400;
+  font-size: 14px;
+  position: relative;
+  top: 10px;
+
+}
+ */
+
+
+
+/*  how does it work?*/
 #how-work {
   padding: 80px 0px;
 }
 
-.point {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: 20px;
-}
 
-.point-bg {
+
+.dotbg {
   font-size: 25px;
   color: #fff;
   padding: 10px 25px;
   border-radius: 50%;
-  background-color: #01bd4e;
+  background-color:   #01bd4e;
 }
 
-.wide-btn {
-  padding-left: 70px;
-  padding-right: 70px;
+.dot {
+  top: 0px;
+  margin-left:0px;
+  padding-left:0px;
+  display: grid;
+  grid-template-columns: 2fr auto;
+  align-items: center;
+  gap: 2x;
 }
 
-/* Contact */
-
-#contact-us {
-  background-color: #fff;
-  padding: 100px 0px 80px 0px;
+.expbtn {
+  top: 10px;
+  margin-left: 2px;
+  padding-left: 90px;
+  padding-right: 90px;
+  top: 10px;
+  margin-right: 2px;
 }
 
-.contact-container {
+.workimg{
+  width: 600px;
+}
+
+/* contact */
+
+#ContactUs {
+  top: 10px;
+  margin-left: 2px;
+  background-color:#fff;
+  padding: 100px 10px 100px 10px;
+}
+
+
+
+/* .contact-container {
   margin: 0 200px;
+} */
+
+
+
+
+/* 
+.contactus_heading{
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  left: 560px;
+
 }
 
-/* Footer */
+ 
+.contactus #button{
+  width: 100px;
+  height: 56px;
+  background:    #01bd4e;
+  border-radius: 6px;
+  position: relative;
+  left: 775px;
+  top: 7px;
+  border: none;
+  color: white;
+} */
 
+/* footer */
+
+
+
+
+.icoon {
+  margin-left: 290px;
+  float: right;
+}
 
 footer {
-  background-color: #01bd4e;
-  padding: 50px 0px 20px 0px;
+  background-color:   #01bd4e;
+  margin-left: 0px;
+  padding-top: 200;
+  padding: 50px 10px 20px 0px;
 }
 
-.footer-container {
+.fc {
+  margin-left: 20px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  column-gap: 20px;
+  column-gap: 25px;
+  padding-top: 200;
   justify-items: center;
+  font-size: 20px;
+  grid-template-columns: 
+  repeat(5, 2fr);
 }
-
-.card-icon-wbg {
-  color: #fff;
+.sicon {
+  color:rgb(255, 255, 255);
+  margin: auto;
 }
-
-.card-icon-g {
-  color: #01bd4e;
-}
-
-.footer-logo {
+.flogo {
+  margin-top: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
-
-.footer-heading {
-  color: #4f4f4f;
+.footerfontcolor{
+  color: rgb(255, 255, 255);
 }
-
-.footer-text {
-  color: #fff;
+.footerheadingcolor{
+  color: #4F4F4F;
 }
+.socialicons{
+  font-size: 20px;
 
-#ul{
+  padding: 10px 10px;
+  background-color: white;
+  color:    #01bd4e;
+  border-radius: 100%;
+}
+.footerheadings ul {
+  width: 250px;
+}
+.footerheadings li,a{
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+   text-decoration: none;
+   margin: 10px 0px;
+   line-height: 21px;
+}
+/* #ul{
 position: relative;
 top:50px;
-}
-.icoon {
-    margin-left: 290px;
-    float: right;
-}
+} */
+/* .iconimage {
+  color:    #01bd4e;
+}  */
+ 
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap"); */
+
+
+
+
+
+
