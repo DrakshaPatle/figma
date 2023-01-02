@@ -18,14 +18,11 @@ body {
   margin-left: 0;
  
 }
-
-
 .dropdown-toggle::after {
   display: none;
   font-family: "Playfair Display", serif;
 
 }
-
 .select_box {
   width: 600px;
   position: relative;
@@ -55,16 +52,15 @@ body {
   background: none;
 }
 
-
 .navbar {
   width: auto;
-  height: 92px;
+  height: 100px;
   background-color: #ffffff;
 }
 
 .navbar2 {
   width: auto;
-  height: 82.75px;
+  height: 90px;
   background-color: #e6faee;
 
 } */
@@ -104,7 +100,6 @@ body {
   padding: 8px 18px;
   color:white;
 }
-
 .secondnav {
   padding-top: 200px;
   padding-bottom: 70px;
@@ -127,15 +122,14 @@ body {
 
 .manimg {
   width: 680px;
-  height: 567px;
+  height: 550px;
 }
 
 .mancontainer {
   position: relative; 
-   left: 20px; 
+   left: 25px; 
 
 }
-
 .manabout {
   position: absolute;
   top: 140px;
@@ -177,7 +171,7 @@ body {
 }
 
 .pc {
-  padding: 120px 0px;
+  padding: 122px 0px;
 }
 
 .cc {
