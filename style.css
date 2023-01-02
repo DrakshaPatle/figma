@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
 
 * {
   padding: 0;
@@ -16,16 +15,15 @@ body {
   margin-left: 0;
   font-family: "Playfair Display", serif;
   font-size: 18px;
-  /* width:40%; */
   margin-left: 0;
-  animation: fade ease-in 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+ 
 }
 
 
 .dropdown-toggle::after {
   display: none;
+  font-family: "Playfair Display", serif;
+
 }
 
 .select_box {
@@ -84,7 +82,7 @@ body {
   overflow: hidden;
 } */
 
-.btn-outline-success {
+.applybtn {
 
   background: #ffffff;
   border: 1px solid #01bd4e;
@@ -99,33 +97,12 @@ body {
 }
 
 /* Navbar */
-.btn-success {
+.find-btn {
   margin-right: 70px;
   background-color: #01bd4e;
   border: 1px solid #01bd4e;
   padding: 8px 18px;
-}
-
-
-.navbar-brand img {
-  width: 120px;
-}
-
-.navbarNav {
-  margin-left: 100px;
-}
-
-#navbarNav li {
-
-  margin: 0px 10px;
-}
-
-.navbar a {
-  color: black;
-}
-
-.add-shadow {
-  box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.404);
+  color:white;
 }
 
 .secondnav {
@@ -219,12 +196,6 @@ body {
   padding: 20px;
 
 }
-
-.tcards {
-  /* text-align: center; */
-
-}
-
 .cicon {
   color: #fff;
 
@@ -233,12 +204,9 @@ body {
 .iconbg {
   color: #01bd4e;
   font-size: 70px;
-
   /* border-radius: 100%;
     width: 4px;
     height: 10px; */
-
-
 }
 
 /*  experts*/
@@ -248,13 +216,12 @@ body {
   padding: 100px 10px 100px 0px;
   top: 1px;
   height: 100%;
-
 }
 
 .card-img {
   overflow: hidden;
   height: 200px;
-  border-radius: 6px 0px 0px 0px !important;
+  border-radius: 10px 2x 0px 0px ;
   object-fit: cover;
   background-position: center center;
 }
@@ -343,8 +310,8 @@ display: inline-flex;
 #ContactUs {
   top: 10px;
   margin-left: 2px;
-  background-color: #fff;
   padding: 100px 10px 100px 10px;
+  background-color: #fff;
 }
 /* demo*/
 .contaheading{
@@ -370,9 +337,6 @@ display: inline-flex;
 } */
 
 /* footer */
-
-
-
 
 .icoon {
   margin-left: 290px;
@@ -441,13 +405,3 @@ a {
   margin: 10px 0px;
   line-height: 21px;
 }
-
-/* #ul{
-position: relative;
-top:50px;
-} */
-/* .iconimage {
-  color:    #01bd4e;
-}  */
-
-/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap"); */
